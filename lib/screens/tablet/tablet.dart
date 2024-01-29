@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_design/utils/my_button.dart';
 
 class TabletLayout extends StatelessWidget {
   const TabletLayout({super.key});
@@ -7,6 +8,13 @@ class TabletLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue,
+      body: Center(
+        child: MyButton(
+          height: 50,
+          width: 100,
+          radius: 20,
+        ),
+      ),
     );
   }
 }
