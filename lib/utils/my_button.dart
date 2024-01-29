@@ -4,8 +4,9 @@ class MyButton extends StatelessWidget {
   final double? height;
   final double? width;
   final double? radius;
+  final Color? color;
 
-  const MyButton({super.key, this.height, this.width, this.radius});
+  const MyButton({super.key, this.height, this.width, this.radius,this.color});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +14,7 @@ class MyButton extends StatelessWidget {
       height: height,
       width: width,
       decoration: BoxDecoration(
-          color: Colors.white, borderRadius: BorderRadius.circular(radius!)),
+          color: color, borderRadius: BorderRadius.circular(radius!)),
       child: Center(child: Text("Click Me")),
     );
   }

@@ -13,6 +13,7 @@ class DesktopLayout extends StatelessWidget {
         height: 50,
         width: 177,
         radius: 15,
+        color: Colors.amber,
       )),
     );
   }

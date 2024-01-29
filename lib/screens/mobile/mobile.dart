@@ -13,6 +13,7 @@ class MobileLayout extends StatelessWidget {
           height: 40,
           width: 80,
           radius: 25,
+          color: Colors.white,
         ),
       ),
     );

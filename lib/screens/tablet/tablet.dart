@@ -13,6 +13,7 @@ class TabletLayout extends StatelessWidget {
           height: 50,
           width: 100,
           radius: 20,
+          color: Colors.deepOrange,
         ),
       ),
     );
