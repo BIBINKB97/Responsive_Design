@@ -19,15 +19,6 @@ class HomePage extends StatelessWidget {
         return MobileLayout();
       }
     });
-    // Scaffold(
-    //   appBar: AppBar(
-    //     centerTitle: true,
-    //     title: Text('Responsive design'),
-    //   ),
-    //   body: Container(
-    //     height: double.infinity,
-    //     decoration: BoxDecoration(color: Colors.black26),
-    //   ),
-    // );
+
   }
 }
